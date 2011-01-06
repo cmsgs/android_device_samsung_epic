@@ -19,7 +19,7 @@
      The icon is turned OFF if then IconIndex = 1 -->
 
 <EriFile VersionNumber="1357"
-         NumberOfEriEntries="13"
+         NumberOfEriEntries="15"
          EriFileType="1">
 
          <CallPromptId Id="0"
@@ -32,6 +32,13 @@
                        CallPromptText="CallPromptId2"/>
          
          <EriInfo RoamingIndicator="0"
+                  IconIndex="1"
+                  IconMode="0"
+                  EriText="Sprint"
+                  CallPromptId="0"
+                  AlertId="0"/>
+
+         <EriInfo RoamingIndicator="1"
                   IconIndex="1"
                   IconMode="0"
                   EriText="Sprint"
