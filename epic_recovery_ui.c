@@ -73,9 +73,10 @@ int device_handle_key(int key_code, int visible) {
 			case 139:	
                 return SELECT_ITEM;
 
-	   case 58:
+		   case 58:
            case 102:
-               if (!get_allow_toggle_display())                    return GO_BACK;
+               if (!get_allow_toggle_display())                
+			   return GO_BACK;
         }
     }
 
