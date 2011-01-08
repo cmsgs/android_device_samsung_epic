@@ -1,4 +1,3 @@
-ifeq ($(TARGET_DEVICE),galaxys)
 # When zero we link against libqcamera; when 1, we dlopen libqcamera.
 ifeq ($(BOARD_CAMERA_LIBRARIES),libcamera)
 
@@ -56,5 +55,4 @@ LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
 
-endif
 endif
