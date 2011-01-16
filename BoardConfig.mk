@@ -44,6 +44,8 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a8
 ARCH_ARM_HAVE_TLS_REGISTER := true
 ANDROID_ARM_LINKER := true
 
+#nexus s lib 
+BOARD_USES_NEXUS_S_LIBS := true
 BOARD_USES_HGL := true
 
 # this is is for gingerbread & CAMERA
@@ -51,7 +53,8 @@ BOARD_USES_OVERLAY := true
 
 #FROYO CAMERA
 BOARD_USES_FROYO := true
-
+ 
+ 
 #audio defines 
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_USES_NEXUS_S_AUDIO := true
