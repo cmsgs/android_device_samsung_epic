@@ -51,9 +51,6 @@ BOARD_USES_HGL := true
 # this is is for gingerbread & CAMERA
 BOARD_USES_OVERLAY := true
 
-#FROYO CAMERA
-BOARD_USES_FROYO := true
- 
  
 #audio defines 
 BOARD_USES_GENERIC_AUDIO := false
@@ -67,10 +64,9 @@ endif
 USE_CAMERA_STUB := false
 #USE_OVERLAY_FORMAT_YCbCr_420_SP := TRUE
 #BUILD_PV_VIDEO_ENCODERS := 1
-# opensource camera from samsung nexus s doesn't compile
-#ifeq ($(USE_CAMERA_STUB),false)
-#BOARD_CAMERA_LIBRARIES := libcamera
-#endif
+ifeq ($(USE_CAMERA_STUB),false)
+BOARD_CAMERA_LIBRARIES := libcamera
+endif
 
 # WiFi related defines
 
