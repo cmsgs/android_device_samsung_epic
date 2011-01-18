@@ -61,12 +61,18 @@ BUILD_WITH_ALSA_UTILS := true
 ALSA_DEFAULT_SAMPLE_RATE := 44100
 endif
 
+
+
 USE_CAMERA_STUB := false
 #USE_OVERLAY_FORMAT_YCbCr_420_SP := TRUE
 #BUILD_PV_VIDEO_ENCODERS := 1
 ifeq ($(USE_CAMERA_STUB),false)
 BOARD_CAMERA_LIBRARIES := libcamera
 endif
+
+BOARD_V4L2_DEVICE := /dev/video0
+BOARD_CAMERA_DEVICE := /dev/video2
+BOARD_SECOND_CAMERA_DEVICE := /dev/video1
 
 # WiFi related defines
 
