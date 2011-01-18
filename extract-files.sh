@@ -390,7 +390,6 @@ PRODUCT_COPY_FILES += \\
 	vendor/samsung/__DEVICE__/proprietary/bin/immvibed:system/bin/immvibed \\
 	vendor/samsung/__DEVICE__/proprietary/bin/logwrapper:system/bin/logwrapper \\
 	vendor/samsung/__DEVICE__/proprietary/bin/immvibed:system/bin/immvibed \\
-	vendor/samsung/__DEVICE__/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \\
 	vendor/samsung/__DEVICE__/proprietary/bin/killmediaserver:system/bin/killmediaserver \\
 	vendor/samsung/__DEVICE__/proprietary/lib/libhardware.so:system/lib/libhardware.so \\
 	vendor/samsung/__DEVICE__/proprietary/bin/vold:system/bin/vold \\
@@ -400,7 +399,7 @@ PRODUCT_COPY_FILES += \\
 	vendor/samsung/__DEVICE__/proprietary/bin/netcfg:system/bin/netcfg \\
 	vendor/samsung/__DEVICE__/proprietary/bin/wlservice:system/bin/wlservice \\
 	vendor/samsung/__DEVICE__/proprietary/lib/libnetutils.so:system/lib/libnetutils.so
-
+#	vendor/samsung/__DEVICE__/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \\
 	
 #
 # Files for battery charging screen
