@@ -35,7 +35,7 @@ $(call inherit-product-if-exists, vendor/samsung/SPH-D700/SPH-D700-vendor.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
     rild.libpath=/system/lib/libsec-ril40.so \
-  	rild.libargs=-d[SPACE]/dev/ttyS0 \
+  	rild.libargs=-d /dev/ttyS0 \
     wifi.interface=eth0 \
     wifi.supplicant_scan_interval=15 \
 	ro.wifi.channels=11
@@ -46,7 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cdma.home.operator.numeric=310120 \
 	ro.cdma.home.operator.alpha=Sprint \
   	net.cdma.pppd.authtype=require-pap \
-	net.cdma.pppd.user=user[SPACE]SprintNextel \
+	net.cdma.pppd.user=user SprintNextel \
 	net.cdma.datalinkinterface=/dev/ttyCDMA0 \
 	net.interfaces.defaultroute=cdma \
 	net.cdma.ppp.interface=ppp0 \
