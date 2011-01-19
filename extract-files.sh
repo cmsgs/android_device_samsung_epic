@@ -354,8 +354,8 @@ PRODUCT_COPY_FILES += \\
 #
 
 PRODUCT_COPY_FILES += \\
-	vendor/samsung/__DEVICE__/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \\
-	vendor/samsung/__DEVICE__/proprietary/Swype.apk:/system/app/Swype.apk
+	vendor/samsung/__DEVICE__/proprietary/lib/libSwypeCore.so:/system/lib/libSwypeCore.so \\
+	vendor/samsung/__DEVICE__/proprietary/app/Swype.apk:/system/app/Swype.apk
 
 
 #
