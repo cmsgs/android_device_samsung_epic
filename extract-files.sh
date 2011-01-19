@@ -151,6 +151,8 @@ lib/libwimaxwtm.so
 etc/wimax_boot.bin
 etc/wimaxfw.bin
 etc/wimaxloader.bin 	
+lib/libSwypeCore.so 
+app/Swype.apk
 
 bin/immvibed
 bin/logwrapper
@@ -243,6 +245,12 @@ PRODUCT_COPY_FILES += \\
     vendor/samsung/__DEVICE__/proprietary/firmware/CE147F02.bin:system/firmware/CE147F02.bin \\
     vendor/samsung/__DEVICE__/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin
 
+#
+#swype
+#
+PRODUCT_COPY_FILES += \\
+	vendor/samsung/__DEVICE__/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \\
+	vendor/samsung/__DEVICE__/proprietary/Swype.apk:/system/app/Swype.apk
 
 	
 #
