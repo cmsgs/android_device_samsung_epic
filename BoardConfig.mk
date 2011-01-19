@@ -62,7 +62,7 @@ ALSA_DEFAULT_SAMPLE_RATE := 44100
 endif
 
 #  gl userspace drivers till they are upgraded 2.3.1 compilant
-BOARD_NO_RGBX_8888 := true
+@3BOARD_NO_RGBX_8888 := true
 
 
 USE_CAMERA_STUB := true
