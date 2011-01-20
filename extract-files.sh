@@ -297,11 +297,11 @@ PRODUCT_COPY_FILES += \\
 PRODUCT_COPY_FILES += \\
     vendor/samsung/__DEVICE__/proprietary/lib/libril.so:system/lib/libril.so \\
     vendor/samsung/__DEVICE__/proprietary/lib/libsec-ril40.so:system/lib/libsec-ril40.so \\
-    vendor/samsung/__DEVICE__/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \\
-    vendor/samsung/__DEVICE__/proprietary/bin/rild:system/bin/rild \\
-    vendor/samsung/__DEVICE__/proprietary/bin/rilclient-test:system/bin/rilclient-test \\
-	vendor/samsung/__DEVICE__/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
-
+    vendor/samsung/__DEVICE__/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so 
+    #vendor/samsung/__DEVICE__/proprietary/bin/rild:system/bin/rild \\
+    #vendor/samsung/__DEVICE__/proprietary/bin/rilclient-test:system/bin/rilclient-test \\
+	#vendor/samsung/__DEVICE__/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
+    #vendor/samsung/__DEVICE__/proprietary/lib/libril.so:system/lib/libril.so \\
 
 
 #
@@ -401,12 +401,12 @@ PRODUCT_COPY_FILES += \\
 	vendor/samsung/__DEVICE__/proprietary/bin/killmediaserver:system/bin/killmediaserver \\
 	vendor/samsung/__DEVICE__/proprietary/lib/libhardware.so:system/lib/libhardware.so \\
 	vendor/samsung/__DEVICE__/proprietary/bin/vold:system/bin/vold \\
-    vendor/samsung/__DEVICE__/proprietary/bin/notified_event:system/bin/notified_event \\
-	vendor/samsung/__DEVICE__/proprietary/bin/dhcpcd:system/bin/dhcpcd \\
-	vendor/samsung/__DEVICE__/proprietary/bin/mfgloader:system/bin/mfgloader \\
-	vendor/samsung/__DEVICE__/proprietary/bin/netcfg:system/bin/netcfg \\
-	vendor/samsung/__DEVICE__/proprietary/bin/wlservice:system/bin/wlservice \\
-	vendor/samsung/__DEVICE__/proprietary/lib/libnetutils.so:system/lib/libnetutils.so
+    vendor/samsung/__DEVICE__/proprietary/bin/notified_event:system/bin/notified_event
+#	vendor/samsung/__DEVICE__/proprietary/bin/dhcpcd:system/bin/dhcpcd \\
+#	vendor/samsung/__DEVICE__/proprietary/bin/mfgloader:system/bin/mfgloader \\
+#	vendor/samsung/__DEVICE__/proprietary/bin/netcfg:system/bin/netcfg \\
+#	vendor/samsung/__DEVICE__/proprietary/bin/wlservice:system/bin/wlservice \\
+#	vendor/samsung/__DEVICE__/proprietary/lib/libnetutils.so:system/lib/libnetutils.so
 #	vendor/samsung/__DEVICE__/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \\
 	
 #
