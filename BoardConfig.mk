@@ -21,7 +21,9 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-
+# magic voodoo fix from google
+BOARD_NO_PAGE_FLIPPING := true
+BOARD_USES_LIBSECRIL_STUB := true
 
 
 # inherit from the proprietary version
