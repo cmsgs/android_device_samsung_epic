@@ -49,8 +49,8 @@ BOARD_USES_NEXUS_S_LIBS := true
 BOARD_USES_HGL := true
 
 # this is is for CAMERA
-BOARD_USES_OVERLAY := true
- 
+#BOARD_USES_OVERLAY := true
+ BOARD_USES_COPYBIT := true
  
 #audio defines 
 BOARD_USES_GENERIC_AUDIO := false
