@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
 
 # Misc other modules
 PRODUCT_PACKAGES += \
+	overlay.s5pc110 \
 	copybit.s5pc110 
 
 
