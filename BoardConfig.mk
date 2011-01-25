@@ -91,7 +91,7 @@ WIFI_DRIVER_MODULE_ARG := "firmware_path=/system/etc/wifi/bcm4329_sta.bin nvram_
 WIFI_DRIVER_MODULE_NAME := "dhd"
 WIFI_IFACE_DIR  :=  "/data/misc/wifi"
 CONFIG_DRIVER_WEXT := true
-
+BOARD_WEXT_NO_COMBO_SCAN := true
 
 #USB tethering
 RNDIS_DEVICE := "/sys/devices/virtual/sec/switch/tethering"
