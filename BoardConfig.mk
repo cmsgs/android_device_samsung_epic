@@ -52,9 +52,9 @@ BOARD_USES_HGL := true
 
 # this is is for gingerbread & CAMERA
 #BOARD_USES_OVERLAY := true
-
 BOARD_USES_COPYBIT := true
- 
+DEFAULT_FB_NUM := 0
+
 #audio defines 
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_USES_NEXUS_S_AUDIO := true
