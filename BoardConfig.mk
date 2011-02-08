@@ -21,10 +21,6 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-# magic voodoo fix from google
-BOARD_NO_PAGE_FLIPPING := true
-BOARD_USES_LIBSECRIL_STUB := true
-
 
 # inherit from the proprietary version
 -include vendor/samsung/SPH-D700/BoardConfigVendor.mk
@@ -51,9 +47,10 @@ BOARD_USES_NEXUS_S_LIBS := true
 BOARD_USES_HGL := true
 
 # this is is for gingerbread & CAMERA
-#BOARD_USES_OVERLAY := true
-BOARD_USES_COPYBIT := true
-DEFAULT_FB_NUM := 0
+#BOARD_USES_OVERLAY := false
+#BOARD_USES_COPYBIT := false
+#DEFAULT_FB_NUM := 0
+BOARD_USES_FROYO_GRALLOC := true
 
 #audio defines 
 BOARD_USES_GENERIC_AUDIO := false
@@ -68,16 +65,16 @@ endif
 BOARD_NO_RGBX_8888 := true
 # part of the driver is broken
 
-USE_CAMERA_STUB := true
-#USE_OVERLAY_FORMAT_YCbCr_420_SP := TRUE
-#BUILD_PV_VIDEO_ENCODERS := 1
+USE_CAMERA_STUB := false
+USE_OVERLAY_FORMAT_YCbCr_420_SP := TRUE
+BUILD_PV_VIDEO_ENCODERS := 1
 ifeq ($(USE_CAMERA_STUB),false)
 BOARD_CAMERA_LIBRARIES := libcamera
 endif
 
-#BOARD_V4L2_DEVICE := /dev/video0
-#BOARD_CAMERA_DEVICE := /dev/video2
-#BOARD_SECOND_CAMERA_DEVICE := /dev/video1
+BOARD_V4L2_DEVICE := /dev/video1
+BOARD_CAMERA_DEVICE := /dev/video0
+BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 
 # WiFi related defines
 
