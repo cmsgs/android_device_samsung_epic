@@ -94,9 +94,9 @@ PRODUCT_PACKAGES += \
 	libOMX.SEC.AVC.Encoder
 
 # Misc other modules
-PRODUCT_PACKAGES += \
-	overlay.s5pc110 \
-	copybit.s5pc110 
+#PRODUCT_PACKAGES += \
+#	overlay.s5pc110 \
+#	copybit.s5pc110 
 
 # Libs
 PRODUCT_PACKAGES += \
