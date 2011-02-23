@@ -31,10 +31,11 @@
     <!-- Maximum width for an attached image -->
     <int name="maxImageWidth">1600</int>
 
-    <!-- UAProf URL -->
-    <string name="uaProfUrl">http://wap.samsungmobile.com/uaprof/SPH-D700.xml</string>
+	
+<!-- UAProf URL -->
+<string name="uaProfUrl">http://device.sprintpcs.com/Samsung/SPH-D700/EB13.rdf</string>
 
-    <!-- User-Agent parameter used in MMS http request -->
-    <!-- this is default to "Android-Mms/0.1". Override if necessary. Optional -->
-    <string name="userAgent">Mozilla/5.0</string>
+<!-- User-Agent parameter used in MMS http request -->
+<!-- this is default to "Android-Mms/0.1". Override if necessary. Optional -->
+<string name="userAgent">Sprint SPH-D700</string>
 </mms_config>
